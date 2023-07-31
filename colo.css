@@ -1,0 +1,77 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    
+  }
+  
+  .circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #ff0000; 
+  }
+  
+  body {
+    display: flex;
+    justify-content:10,10;
+    align-items:10,10;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+  }
+  
+  .circle2 {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #1e00ff; 
+  }
+  body {
+    display: flex;
+    justify-content:10,10;
+    align-items:10,10;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+  }
+  
+  .circle3 {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #bfff00; 
+  }
+  body {
+    display: flex;
+    justify-content:10,10;
+    align-items:10,10;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+  }
+  
+  .corazon.jpg {
+    width: 100px;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    
+  }
+ 
+  .color-palette {
+    display: grid;
+    grid-template-columns: repeat(6, 100px);
+    grid-gap: 50px; 
+    margin-bottom: -700px;
+    margin-left: -1000px;
+  }
+  .color {
+    width: 100px; 
+    height: 100px;
+    cursor: pointer; 
+    border-radius: 100%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); 
+  }
