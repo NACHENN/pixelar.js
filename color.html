@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+  <!DOCTYPE html>
 <html>
 <head>
   <link rel="stylesheet" type="css" href="colores.css">
@@ -48,8 +48,28 @@
       cursor: pointer;
     }
   </style>
+
+  
 </head>
+/* para cambiar la posicion */
+<html>
+<head>
+    <title>Ejemplo de cambio de posición</title>
+    <style>
+        .color-button {
+            width: 100px;
+            height: 100px;
+            margin: 10px;
+        }
+        .color-button:nth-child(4) {
+            position: 4; /* Establecemos el elemento 4 como position: relative */
+            top: 30px; /* Movemos el elemento 50px hacia abajo desde su posición normal */
+            left: 20px; /* Movemos el elemento 20px hacia la derecha desde su posición normal */
+        }
+    </style>
+
 <body>
+  
   <div class="color-palette">
     <div class="color-button" style="background-color: #FF0000;"></div>
     <div class="color-button" style="background-color: #ffffff;"></div>
@@ -57,6 +77,31 @@
     <div class="color-button" style="background-color: #FFFF00;"></div>
     <div class="color-button" style="background-color: #3a933e;"></div>
     <div class="color-button" style="background-color: #00FFFF;"></div>
+
+  
+    <table>
+      <tr>
+        <td>Elemento 1</td>
+        <td>Elemento 2</td>
+        <td>Elemento 3</td>
+        <td>Elemento 8</td>
+      </tr>
+      <tr>
+        <td>Elemento 4</td>
+        <td>Elemento 5</td>
+        <td>Elemento 6</td>
+        <td>Elemento 7</td>
+      </tr>
+    </tr>
+    <td>Elemento 9</td>
+
+
+    
+  </tr>
+    </table>
+    
+    </div>
+    
   </div>
 </body>
 </html>
