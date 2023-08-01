@@ -1,108 +1,87 @@
- <!DOCTYPE html>
-<html>
-<head>
-  <link rel="stylesheet" type="css" href="colores.css">
-</head>
-<body>
-    <img src="https://img.freepik.com/vector-premium/pixel-art-corazon-amor-san-valentin_182604-222.jpg?w=2000"  width="400" height="341"/>
-
-  <div class="circle"></div>
-  <div class="circle2"></div>
-  <div class="circle3"></div>
-
-  <div class="color-palette">
-    <div class="color" style="background-color: #b47c24"></div> 
-    <div class="color" style="background-color: #1cac1c"></div> 
-    <div class="color" style="background-color:#442c04"></div> 
-    <div class="color" style="background-color:#d4ac64 "></div> 
-    <div class="color" style="background-color:#fc0404;"></div>
-    <div class="color" style="background-color:#34acec"></div> 
-</div>
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
     
-</body>
-</html>
-<!DOCTYPE html>
-<html lang="es">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Paleta de Colores</title>
-  <style>
-    body {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-      margin: 0;
-    }
-
-    .color-palette {
-      display: flex;
-      gap: 10px;
-    }
-
-    .color-button {
-      width: 50px;
-      height: 50px;
-      border-radius: 50%;
-      cursor: pointer;
-    }
-  </style>
-
+  }
   
-</head>
-/* para cambiar la posicion */
-<html>
-<head>
-    <title>Ejemplo de cambio de posición</title>
-    <style>
-        .color-button {
-            width: 100px;
-            height: 100px;
-            margin: 10px;
-        }
-        .color-button:nth-child(4) {
-            position: 4; /* Establecemos el elemento 4 como position: relative */
-            top: 30px; /* Movemos el elemento 50px hacia abajo desde su posición normal */
-            left: 20px; /* Movemos el elemento 20px hacia la derecha desde su posición normal */
-        }
-    </style>
-
-<body>
+  .circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #ff0000; 
+  }
   
-  <div class="color-palette">
-    <div class="color-button" style="background-color: #FF0000;"></div>
-    <div class="color-button" style="background-color: #ffffff;"></div>
-    <div class="color-button" style="background-color: #000000;"></div>
-    <div class="color-button" style="background-color: #FFFF00;"></div>
-    <div class="color-button" style="background-color: #3a933e;"></div>
-    <div class="color-button" style="background-color: #00FFFF;"></div>
-
+  body {
+    display: flex;
+    justify-content:10,10;
+    align-items:10,10;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+  }
   
-    <table>
-      <tr>
-        <td>Elemento 1</td>
-        <td>Elemento 2</td>
-        <td>Elemento 3</td>
-        <td>Elemento 8</td>
-      </tr>
-      <tr>
-        <td>Elemento 4</td>
-        <td>Elemento 5</td>
-        <td>Elemento 6</td>
-        <td>Elemento 7</td>
-      </tr>
-    </tr>
-    <td>Elemento 9</td>
-
-
+  .circle2 {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #1e00ff; 
+  }
+  body {
+    display: flex;
+    justify-content:10,10;
+    align-items:10,10;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+  }
+  
+  .circle3 {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #bfff00; 
+  }
+  body {
+    display: flex;
+    justify-content:10,10;
+    align-items:10,10;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+  }
+  
+  .corazon.jpg {
+    width: 100px;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
     
-  </tr>
-    </table>
-    
-    </div>
-    
-  </div>
-</body>
-</html>
-
+  }
+ 
+  .color-palette {
+    display: grid;
+    grid-template-columns: repeat(6, 100px);
+    grid-gap: 50px; 
+    margin-bottom: -700px;
+    margin-left: -1000px;
+  }
+  .color {
+    width: 100px; 
+    height: 100px;
+    cursor: pointer; 
+    border-radius: 100%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); 
+  }
+  
+  table {
+    border-collapse: collapse; 
+  }
+  
+  td {
+    padding: 10px;
+    border: 10px thick #141313; 
+  }
+  
