@@ -84,4 +84,15 @@ body {
     padding: 10px;
     border: 10px thick #141313; 
   }
-  
+  .grid { esto es lo del gtml hay que hacer que funcione 
+    display: grid;
+    grid-template-columns: respeat (10, 50px);
+    grid-template-rows: repeat (10, 50px);
+    grid-gap: 1px;
+    margin-left:auto
+  }
+  .paleta {
+    display: paleta;
+    grid-template-rows: repeat (6, 50px);
+    grid-gap: 10px
+  }
