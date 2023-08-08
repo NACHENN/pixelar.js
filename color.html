@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>pixel ar para colorear </title> hacer que funcione 
+  /*hacer qque funcione*/                             
+    <title>pixel ar para colorear </title> 
     <link rel="stylesheet" href="pintar".css />
   <link rel="stylesheet" type="css" href="colores.css">
 </head>
 <body>
-    <img src="https://img.freepik.com/vector-premium/pixel-art-corazon-amor-san-valentin_182604-222.jpg?w=2000"  width="400" height="341"/>
+  "/>
+    <img src="https://img.freepik.com/vector-premium/pixel-art-corazon-amor-san-valentin_182604-222.jpg?w=2000"  width="300" height="300"  left="20" right="31"
     <div class "grid"> 
         <div class="cell" id="cell-1-1"></div>
         <div class="cell" id="cell-1-2"></div>
@@ -67,18 +69,21 @@
 <head>
     <title>Ejemplo de cambio de posición</title>
     <style>
+       .color-palette {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: flex-start; /* Alineación horizontal en la parte izquierda */
+            align-items: flex-end; /* Alineación vertical en la parte inferior */
+            height: 800px; /* Altura para el contenedor, para que los botones se alineen correctamente */
+        }
         .color-button {
-            width: 100px;
-            height: 100px;
-            margin: 10px;
+            width: 50px;
+            height: 50px;
+            margin: 5px; /* Margen entre los botones de color */
         }
-        .color-button:nth-child(4) {
-            position: 4; /* Establecemos el elemento 4 como position: relative */
-            top: 30px; /* Movemos el elemento 50px hacia abajo desde su posición normal */
-            left: 20px; /* Movemos el elemento 20px hacia la derecha desde su posición normal */
-        }
+        
     </style>
-
+</head>
 <body>
   
   <div class="color-palette">
@@ -88,28 +93,9 @@
     <div class="color-button" style="background-color: #FFFF00;"></div>
     <div class="color-button" style="background-color: #3a933e;"></div>
     <div class="color-button" style="background-color: #00FFFF;"></div>
-    <canvas >completar para cambiar de posi</canvas>
-  
-    <table>
-      <tr>
-        <td>Elemento 1</td>
-        <td>Elemento 2</td>
-        <td>Elemento 3</td>
-        <td>Elemento 8</td>
-      </tr>
-      <tr>
-        <td>Elemento 4</td>
-        <td>Elemento 5</td>
-        <td>Elemento 6</td>
-        <td>Elemento 7</td>
-      </tr>
-    </tr>
-    <td>Elemento 9</td>
-
-
     
-  </tr>
-    </table>
+  
+      
     
     </div>
     
