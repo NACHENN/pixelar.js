@@ -1,12 +1,12 @@
-><!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
-    <title>Grilla en HTML</title>
+    <title>Grilla </title>
     <style>
         .grid-container {
             display: grid;
             grid-template-columns: repeat(100, 1fr);
-            gap: 3px; /* Espacio entre las celdas */
+            gap: 3px; 
 
         }
 
@@ -40,4 +40,3 @@
     </div>
 </body>
 </html>
-
